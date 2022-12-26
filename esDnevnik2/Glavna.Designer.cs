@@ -32,10 +32,14 @@
             this.jedanBezToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.osobeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jedanSaFKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.raspodelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabelaBezToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabelaSaFKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.izvestajiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.raspodelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.smeroviToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.skolskeGodineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.predmetiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.osobeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +68,7 @@
             // osobeToolStripMenuItem
             // 
             this.osobeToolStripMenuItem.Name = "osobeToolStripMenuItem";
-            this.osobeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.osobeToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.osobeToolStripMenuItem.Text = "Osobe";
             this.osobeToolStripMenuItem.Click += new System.EventHandler(this.osobeToolStripMenuItem_Click);
             // 
@@ -76,8 +80,20 @@
             this.jedanSaFKToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.jedanSaFKToolStripMenuItem.Text = "Jedan SaFK";
             // 
+            // raspodelaToolStripMenuItem
+            // 
+            this.raspodelaToolStripMenuItem.Name = "raspodelaToolStripMenuItem";
+            this.raspodelaToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.raspodelaToolStripMenuItem.Text = "Raspodela";
+            this.raspodelaToolStripMenuItem.Click += new System.EventHandler(this.raspodelaToolStripMenuItem_Click);
+            // 
             // tabelaBezToolStripMenuItem
             // 
+            this.tabelaBezToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.smeroviToolStripMenuItem,
+            this.skolskeGodineToolStripMenuItem,
+            this.predmetiToolStripMenuItem,
+            this.osobeToolStripMenuItem1});
             this.tabelaBezToolStripMenuItem.Name = "tabelaBezToolStripMenuItem";
             this.tabelaBezToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.tabelaBezToolStripMenuItem.Text = "Tabela Bez";
@@ -94,12 +110,33 @@
             this.izvestajiToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.izvestajiToolStripMenuItem.Text = "Izvestaji";
             // 
-            // raspodelaToolStripMenuItem
+            // smeroviToolStripMenuItem
             // 
-            this.raspodelaToolStripMenuItem.Name = "raspodelaToolStripMenuItem";
-            this.raspodelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.raspodelaToolStripMenuItem.Text = "Raspodela";
-            this.raspodelaToolStripMenuItem.Click += new System.EventHandler(this.raspodelaToolStripMenuItem_Click);
+            this.smeroviToolStripMenuItem.Name = "smeroviToolStripMenuItem";
+            this.smeroviToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.smeroviToolStripMenuItem.Text = "Smerovi";
+            this.smeroviToolStripMenuItem.Click += new System.EventHandler(this.smeroviToolStripMenuItem_Click);
+            // 
+            // skolskeGodineToolStripMenuItem
+            // 
+            this.skolskeGodineToolStripMenuItem.Name = "skolskeGodineToolStripMenuItem";
+            this.skolskeGodineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.skolskeGodineToolStripMenuItem.Text = "Skolske godine";
+            this.skolskeGodineToolStripMenuItem.Click += new System.EventHandler(this.skolskeGodineToolStripMenuItem_Click);
+            // 
+            // predmetiToolStripMenuItem
+            // 
+            this.predmetiToolStripMenuItem.Name = "predmetiToolStripMenuItem";
+            this.predmetiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.predmetiToolStripMenuItem.Text = "Predmeti";
+            this.predmetiToolStripMenuItem.Click += new System.EventHandler(this.predmetiToolStripMenuItem_Click);
+            // 
+            // osobeToolStripMenuItem1
+            // 
+            this.osobeToolStripMenuItem1.Name = "osobeToolStripMenuItem1";
+            this.osobeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.osobeToolStripMenuItem1.Text = "Osobe";
+            this.osobeToolStripMenuItem1.Click += new System.EventHandler(this.osobeToolStripMenuItem1_Click);
             // 
             // Glavna
             // 
@@ -128,5 +165,9 @@
         private System.Windows.Forms.ToolStripMenuItem tabelaSaFKToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem izvestajiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem raspodelaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem smeroviToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem skolskeGodineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem predmetiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem osobeToolStripMenuItem1;
     }
 }
