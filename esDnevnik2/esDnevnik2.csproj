@@ -47,6 +47,13 @@
     <Compile Include="Glavna.Designer.cs">
       <DependentUpon>Glavna.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ocena.cs" />
+    <Compile Include="Ocena2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocena2.Designer.cs">
+      <DependentUpon>Ocena2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Osoba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +77,9 @@
     </Compile>
     <EmbeddedResource Include="Glavna.resx">
       <DependentUpon>Glavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocena2.resx">
+      <DependentUpon>Ocena2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Osoba.resx">
       <DependentUpon>Osoba.cs</DependentUpon>

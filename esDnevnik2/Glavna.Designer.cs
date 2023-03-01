@@ -34,12 +34,13 @@
             this.jedanSaFKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.raspodelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabelaBezToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabelaSaFKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.izvestajiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smeroviToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.skolskeGodineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.predmetiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.osobeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabelaSaFKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.izvestajiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ocenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,8 +99,38 @@
             this.tabelaBezToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.tabelaBezToolStripMenuItem.Text = "Tabela Bez";
             // 
+            // smeroviToolStripMenuItem
+            // 
+            this.smeroviToolStripMenuItem.Name = "smeroviToolStripMenuItem";
+            this.smeroviToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.smeroviToolStripMenuItem.Text = "Smerovi";
+            this.smeroviToolStripMenuItem.Click += new System.EventHandler(this.smeroviToolStripMenuItem_Click);
+            // 
+            // skolskeGodineToolStripMenuItem
+            // 
+            this.skolskeGodineToolStripMenuItem.Name = "skolskeGodineToolStripMenuItem";
+            this.skolskeGodineToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.skolskeGodineToolStripMenuItem.Text = "Skolske godine";
+            this.skolskeGodineToolStripMenuItem.Click += new System.EventHandler(this.skolskeGodineToolStripMenuItem_Click);
+            // 
+            // predmetiToolStripMenuItem
+            // 
+            this.predmetiToolStripMenuItem.Name = "predmetiToolStripMenuItem";
+            this.predmetiToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.predmetiToolStripMenuItem.Text = "Predmeti";
+            this.predmetiToolStripMenuItem.Click += new System.EventHandler(this.predmetiToolStripMenuItem_Click);
+            // 
+            // osobeToolStripMenuItem1
+            // 
+            this.osobeToolStripMenuItem1.Name = "osobeToolStripMenuItem1";
+            this.osobeToolStripMenuItem1.Size = new System.Drawing.Size(153, 22);
+            this.osobeToolStripMenuItem1.Text = "Osobe";
+            this.osobeToolStripMenuItem1.Click += new System.EventHandler(this.osobeToolStripMenuItem1_Click);
+            // 
             // tabelaSaFKToolStripMenuItem
             // 
+            this.tabelaSaFKToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ocenaToolStripMenuItem});
             this.tabelaSaFKToolStripMenuItem.Name = "tabelaSaFKToolStripMenuItem";
             this.tabelaSaFKToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.tabelaSaFKToolStripMenuItem.Text = "Tabela SaFK";
@@ -110,33 +141,12 @@
             this.izvestajiToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.izvestajiToolStripMenuItem.Text = "Izvestaji";
             // 
-            // smeroviToolStripMenuItem
+            // ocenaToolStripMenuItem
             // 
-            this.smeroviToolStripMenuItem.Name = "smeroviToolStripMenuItem";
-            this.smeroviToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.smeroviToolStripMenuItem.Text = "Smerovi";
-            this.smeroviToolStripMenuItem.Click += new System.EventHandler(this.smeroviToolStripMenuItem_Click);
-            // 
-            // skolskeGodineToolStripMenuItem
-            // 
-            this.skolskeGodineToolStripMenuItem.Name = "skolskeGodineToolStripMenuItem";
-            this.skolskeGodineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.skolskeGodineToolStripMenuItem.Text = "Skolske godine";
-            this.skolskeGodineToolStripMenuItem.Click += new System.EventHandler(this.skolskeGodineToolStripMenuItem_Click);
-            // 
-            // predmetiToolStripMenuItem
-            // 
-            this.predmetiToolStripMenuItem.Name = "predmetiToolStripMenuItem";
-            this.predmetiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.predmetiToolStripMenuItem.Text = "Predmeti";
-            this.predmetiToolStripMenuItem.Click += new System.EventHandler(this.predmetiToolStripMenuItem_Click);
-            // 
-            // osobeToolStripMenuItem1
-            // 
-            this.osobeToolStripMenuItem1.Name = "osobeToolStripMenuItem1";
-            this.osobeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.osobeToolStripMenuItem1.Text = "Osobe";
-            this.osobeToolStripMenuItem1.Click += new System.EventHandler(this.osobeToolStripMenuItem1_Click);
+            this.ocenaToolStripMenuItem.Name = "ocenaToolStripMenuItem";
+            this.ocenaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ocenaToolStripMenuItem.Text = "Ocena";
+            this.ocenaToolStripMenuItem.Click += new System.EventHandler(this.ocenaToolStripMenuItem_Click);
             // 
             // Glavna
             // 
@@ -169,5 +179,6 @@
         private System.Windows.Forms.ToolStripMenuItem skolskeGodineToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem predmetiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem osobeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ocenaToolStripMenuItem;
     }
 }

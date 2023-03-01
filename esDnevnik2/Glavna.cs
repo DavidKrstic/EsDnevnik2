@@ -50,5 +50,11 @@ namespace esDnevnik2
             Sifarnik frm_sifarnik = new Sifarnik("osoba");
             frm_sifarnik.Show();
         }
+
+        private void ocenaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ocena2 frm_ocena = new Ocena2();
+            frm_ocena.Show();
+        }
     }
 }
